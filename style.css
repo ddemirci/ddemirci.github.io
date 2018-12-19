@@ -1,0 +1,42 @@
+body{
+	background-image: url("header.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+.pageTitle{
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.btn-doruk{
+	/*padding: 1em 2em;*/
+	background-color: orange;
+}
+
+.btn-doruk:hover{
+	border-width: 5px;
+	cursor: pointer;
+}
